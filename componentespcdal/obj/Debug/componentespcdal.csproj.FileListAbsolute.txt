@@ -1,0 +1,9 @@
+C:\Users\mzurita\source\repos\componentespcdal\bin\Debug\componentespcdal.dll
+C:\Users\mzurita\source\repos\componentespcdal\bin\Debug\componentespcdal.pdb
+C:\Users\mzurita\source\repos\componentespcdal\bin\Debug\componentespcmod.dll
+C:\Users\mzurita\source\repos\componentespcdal\bin\Debug\componentespcmod.pdb
+C:\Users\mzurita\source\repos\componentespcdal\obj\Debug\componentespcdal.csproj.AssemblyReference.cache
+C:\Users\mzurita\source\repos\componentespcdal\obj\Debug\componentespcdal.csproj.CoreCompileInputs.cache
+C:\Users\mzurita\source\repos\componentespcdal\obj\Debug\componentespcdal.csproj.CopyComplete
+C:\Users\mzurita\source\repos\componentespcdal\obj\Debug\componentespcdal.dll
+C:\Users\mzurita\source\repos\componentespcdal\obj\Debug\componentespcdal.pdb

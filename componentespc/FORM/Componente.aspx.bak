@@ -1,0 +1,77 @@
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/FORM/master.Master" AutoEventWireup="true" CodeBehind="Componente.aspx.cs" Inherits="componentespc.FORM.Componente" %>
+
+<%@ Register Assembly="DevExpress.Web.v19.2, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web" TagPrefix="dx" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+
+    <dx:ASPxPanel ID="ASPxPanel1" runat="server" Border-BorderColor="Yellow">
+
+        <PanelCollection>
+
+            <dx:PanelContent>
+
+                <dx:ASPxFormLayout ID="formLayout" runat="server" Width="100%" UseDefaultPaddings="false">
+                    <Items>
+                        <dx:LayoutGroup Caption="Gridview" SettingsItemCaptions-Location="Top">
+                            <Items>
+
+                                <dx:LayoutItem ShowCaption="False">
+
+                                    <LayoutItemNestedControlCollection>
+
+                                        <dx:LayoutItemNestedControlContainer>
+
+                                            <dx:ASPxButton ID="a1" AutoPostBack="false" runat="server" Text="success">
+                                                 <ClientSideEvents Click="function(s, e) {success()}"></ClientSideEvents>
+                                                </dx:ASPxButton>
+
+                                            <dx:ASPxButton ID="a2" AutoPostBack="false" runat="server" Text="Info">
+                                                 <ClientSideEvents Click="function(s, e) {Info()}"></ClientSideEvents>
+                                                </dx:ASPxButton>
+
+                                            <dx:ASPxButton ID="a3" AutoPostBack="false" runat="server" Text="Warning">
+                                                 <ClientSideEvents Click="function(s, e) {Warning()}"></ClientSideEvents>
+                                                </dx:ASPxButton>
+
+                                            <dx:ASPxButton ID="a4" AutoPostBack="false" runat="server" Text="error">
+                                                 <ClientSideEvents Click="function(s, e) {error()}"></ClientSideEvents>
+                                                </dx:ASPxButton>
+                                             <dx:ASPxButton ID="a5" AutoPostBack="false" runat="server" Text="Texto Editado">
+                                                 <ClientSideEvents Click="function(s, e) {myfunction()}"></ClientSideEvents>
+                                                </dx:ASPxButton>
+                                               
+                                            
+
+                                            <dx:ASPxGridView ID="ASPxGridView1" AutoGenerateColumns="true" Width="100%" runat="server">
+                                                <Toolbars>
+                                                    <dx:GridViewToolbar>
+                                                        <Items>
+                                                            <dx:GridViewToolbarItem Command="Edit"></dx:GridViewToolbarItem>
+                                                            <dx:GridViewToolbarItem Command="Delete"></dx:GridViewToolbarItem>
+                                                            <dx:GridViewToolbarItem Command="New"></dx:GridViewToolbarItem>
+                                                        </Items>
+                                                    </dx:GridViewToolbar>
+                                                </Toolbars>
+                                            </dx:ASPxGridView>
+
+
+                                        </dx:LayoutItemNestedControlContainer>
+                                    </LayoutItemNestedControlCollection>
+                                </dx:LayoutItem>
+
+                            </Items>
+                        </dx:LayoutGroup>
+                    </Items>
+                </dx:ASPxFormLayout>
+
+            </dx:PanelContent>
+
+        </PanelCollection>
+
+
+    </dx:ASPxPanel>
+    <script src="../Scripts/JS.js"></script>
+    
+</asp:Content>

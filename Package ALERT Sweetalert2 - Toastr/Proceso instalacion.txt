@@ -1,0 +1,8 @@
+los archivos min.js y css insertarlos en sus correspondientes carpetas para manterner un orden
+y utilizar etiquetas en la cabezera del codigo (HEAD).
+
+RECOMENDACION SIEMPRE DEJAR EN JQUERY COMO PRIMERO DADO A QUE PUEDE EXISTIR PROBLEMAS.
+
+
+
+Descargado el 11-01-2022

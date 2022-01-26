@@ -1,0 +1,92 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="master.master.cs" Inherits="componentespc.FORM.master" %>
+
+<%@ Register Assembly="DevExpress.Web.v19.2, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web" TagPrefix="dx" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+
+    <script src="../Scripts/jquery-1.6.3.min.js"></script>
+    <script src="../Scripts/toastr.min.js"></script>
+    <link href="../content/toastr.min.css" rel="stylesheet" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <%-- menu--%>
+        <dx:ASPxPanel ID="ASPxPanel1" runat="server" Width="100%" Border-BorderColor="yellow">
+            <PanelCollection>
+                <dx:PanelContent>
+
+                   <%-- <dx:ASPxImage ID="ASPxImage1" runat="server" ShowLoadingImage="true" ImageUrl="~/IMG/pizza-com.svg" Style="width: 80px;"></dx:ASPxImage>--%>
+
+                    <dx:ASPxFormLayout runat="server" Width="100%">
+                        <Items>
+                            <dx:LayoutItem  ShowCaption="False">
+                                <LayoutItemNestedControlCollection>
+                                    <dx:LayoutItemNestedControlContainer>
+                                        <dx:ASPxMenu runat="server" Width="100%">
+                                            <Items>
+                                                <dx:MenuItem Text="Inicio" NavigateUrl="Index.aspx">
+                                                    <Image IconID="people_customersales_16x16devav"></Image>
+                                                    <ItemStyle Border-BorderColor="#FF9933"></ItemStyle>
+                                                </dx:MenuItem>
+                                                <dx:MenuItem Text="Componentes" NavigateUrl="Componente.aspx">
+                                                    <Image IconID="support_product_16x16office2013"></Image>
+                                                    <ItemStyle Border-BorderColor="#FF9933"></ItemStyle>
+                                                </dx:MenuItem>
+                                            </Items>
+                                        </dx:ASPxMenu>
+                                    </dx:LayoutItemNestedControlContainer>
+                                </LayoutItemNestedControlCollection>
+                            </dx:LayoutItem>
+                        </Items>
+                    </dx:ASPxFormLayout>
+                </dx:PanelContent>
+            </PanelCollection>
+        </dx:ASPxPanel>
+        <%-- menu--%>
+
+        <dx:ASPxPanel ID="LeftPanel" runat="server" FixedPosition="WindowLeft" FixedPositionOverlap="true"  Width="1%" Border-BorderStyle="none">
+            <PanelCollection>
+                <dx:PanelContent runat="server" SupportsDisabledAttribute="True">
+                    <div></div>
+                </dx:PanelContent>
+            </PanelCollection>
+        </dx:ASPxPanel>
+
+
+
+        <dx:ASPxPanel ID="RightPanel" runat="server" FixedPosition="WindowRight" FixedPositionOverlap="true"  Width="1%" Border-BorderStyle="none">
+            <PanelCollection>
+                <dx:PanelContent runat="server" SupportsDisabledAttribute="True">
+                    <div></div>
+                </dx:PanelContent>
+            </PanelCollection>
+        </dx:ASPxPanel>
+
+
+          <%--Piepagina--%>
+        <dx:ASPxPanel ID="PiePagina" runat="server" FixedPosition="WindowBottom" CssClass="footer" BackColor="#272727" Height="11px" Border-BorderStyle="None">
+            <PanelCollection>
+                <dx:PanelContent runat="server" SupportsDisabledAttribute="True">
+                    <div style="text-align: center;">Todos los derechos reservados.</div>
+                </dx:PanelContent>
+            </PanelCollection>
+        </dx:ASPxPanel>
+        <%--Piepagina--%>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+
+  
+    </form>
+
+                
+</body>
+</html>

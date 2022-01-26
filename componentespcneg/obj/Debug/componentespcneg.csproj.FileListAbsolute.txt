@@ -1,0 +1,11 @@
+C:\Users\mzurita\source\repos\componentespcneg\bin\Debug\componentespcneg.dll
+C:\Users\mzurita\source\repos\componentespcneg\bin\Debug\componentespcneg.pdb
+C:\Users\mzurita\source\repos\componentespcneg\bin\Debug\componentespcdal.dll
+C:\Users\mzurita\source\repos\componentespcneg\bin\Debug\componentespcmod.dll
+C:\Users\mzurita\source\repos\componentespcneg\bin\Debug\componentespcdal.pdb
+C:\Users\mzurita\source\repos\componentespcneg\bin\Debug\componentespcmod.pdb
+C:\Users\mzurita\source\repos\componentespcneg\obj\Debug\componentespcneg.csproj.AssemblyReference.cache
+C:\Users\mzurita\source\repos\componentespcneg\obj\Debug\componentespcneg.csproj.CoreCompileInputs.cache
+C:\Users\mzurita\source\repos\componentespcneg\obj\Debug\componentespcneg.csproj.CopyComplete
+C:\Users\mzurita\source\repos\componentespcneg\obj\Debug\componentespcneg.dll
+C:\Users\mzurita\source\repos\componentespcneg\obj\Debug\componentespcneg.pdb

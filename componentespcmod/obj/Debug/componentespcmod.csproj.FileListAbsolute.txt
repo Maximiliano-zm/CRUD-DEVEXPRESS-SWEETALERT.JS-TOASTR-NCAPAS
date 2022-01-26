@@ -1,0 +1,6 @@
+C:\Users\mzurita\source\repos\componentespcmod\bin\Debug\componentespcmod.dll
+C:\Users\mzurita\source\repos\componentespcmod\bin\Debug\componentespcmod.pdb
+C:\Users\mzurita\source\repos\componentespcmod\obj\Debug\componentespcmod.csproj.AssemblyReference.cache
+C:\Users\mzurita\source\repos\componentespcmod\obj\Debug\componentespcmod.csproj.CoreCompileInputs.cache
+C:\Users\mzurita\source\repos\componentespcmod\obj\Debug\componentespcmod.dll
+C:\Users\mzurita\source\repos\componentespcmod\obj\Debug\componentespcmod.pdb
